@@ -1,10 +1,12 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
 
 .container-header {
-  background-color: blue;
   position: relative;
-  display: grid;
-  align-items: center;
-  justify-items: center;
+  height: 15%;
+  width: 100%;
 }
 
 .header-text {
@@ -12,14 +14,22 @@
   text-align: center;
   grid-row: 2;
   grid-column: 1;
+  background-color: red;
+  height: 50%;
+  width: 100%;
 }
 
 .header-picture {
+  text-align: center;
   position: relative;
   grid-row: 1;
   grid-column: 1;
+  height: 50%;
+  width: 100%;
+  background-color: green;
 }
 .self-pic {
- width: 100px;
- height: 100px;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
 }

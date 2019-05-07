@@ -11,7 +11,7 @@ html, body {
 
 .header-text {
   text-align: center;
-  background-color: red;
+  background-color: green;
   height: 25%;
   width: 100%;
 }
@@ -35,4 +35,8 @@ html, body {
   background-color: #eaede8;
   text-align: center;
   padding: 1%;
+}
+
+.projects-container {
+  text-align: center;
 }

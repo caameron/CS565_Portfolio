@@ -7,6 +7,12 @@
     <link rel="stylesheet" type="text/css" href="portfolio_style.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/css/bootstrap.min.css" />
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      var readMore = $("#read_more");
+      var readLess = $("#read_less");
+
+      //On click event
+    </script>
   </head>
 
   <body>
@@ -34,6 +40,27 @@
           Masters of Computer Science at Portland State University
         </p>
       </div>
+    </div>
+
+    <div class="about-container">
+      <h3>About me</h3>
+      <p>
+        Hi my name is Caameron Nakasone and I am a Post-Baccalaureate Computer Science Student currently in proccess of obtaining my Masters in Computer Science.
+
+        <!-- Added in a read more button
+        Got the idea and overview from site below
+        https://www.sitepoint.com/community/t/how-to-create-the-more-link-button-to-display-rest-of-the-text/7437/2
+        -->
+        <a id="read_more" href="#">Read more...</a>
+
+        <span id="expanded_text">
+          I make it a priority for me to produce quality work which I can be proud of. I am working hard grow my understanding of programming and the endless amount of topics in Computer Science. This website is a project to help me understand and learn the basics of web development, HTML, CSS, and JavaScript. If you wish to know more information, my resume and contact information are in the sections below.
+          <a id="read_less" href="#">Read Less...</a>
+        </span>
+      </p>
+
+      <!-- Added in a read more button -->
+
 
     </div>
   </body>

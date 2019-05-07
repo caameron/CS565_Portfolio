@@ -7,12 +7,7 @@
     <link rel="stylesheet" type="text/css" href="portfolio_style.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/css/bootstrap.min.css" />
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-      var readMore = $("#read_more");
-      var readLess = $("#read_less");
 
-      //On click event
-    </script>
   </head>
 
   <body>
@@ -63,5 +58,30 @@
 
 
     </div>
+
+    <script type="text/javascript">
+
+      //grab elements that will be used
+      var expand = $("#expanded_text");
+      var readLess = $("#read_less");
+      var readMore = $("#read_more");
+      //hide the expanded text as default using hide() method
+      expand.hide();
+
+      //On click listener for the read more and read less buttons. When read more is clicked,
+      //hide read more and show the read less link and expanded text.
+      //When read less is clicked hide read less and expanded text but show read more link
+      readMore.click(function(event) {
+        expand.show();
+        readLess.show();
+        readMore.hide();
+      });
+
+      readLess.click(function(event) {
+        expand.hide();
+        readLess.hide();
+        readMore.show();
+      });
+    </script>
   </body>
 </html>

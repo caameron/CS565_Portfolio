@@ -55,7 +55,7 @@ html, body {
 }
 
 .project-content {
-  background: black;
+  position: relative;
   margin: 2%;
 }
 
@@ -63,4 +63,23 @@ html, body {
   max-width: 75%;
   max-height: 75%;
   border-radius: 20px;
+}
+
+.project .overlay {
+  position: absolute;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  opacity: 0;
+  font-size: 30px;
+  font-weight: bold;
+  border: 0;
+}
+
+.project .overlay:hover {
+  opacity: 1;
 }

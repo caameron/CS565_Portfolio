@@ -54,17 +54,24 @@ html, body {
 
 .project-name {
   background-color: red;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .project-content {
   position: relative;
-  margin: 2%;
+  height: 250px;
+  margin: 5% 2% 2% 2%;
 }
 
 .project-pic {
   max-width: 75%;
   max-height: 75%;
   border-radius: 20px;
+}
+
+.project-description {
+  margin: 1% 2%;
 }
 
 .project .overlay {

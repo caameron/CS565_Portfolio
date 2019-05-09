@@ -4,7 +4,6 @@ html, body {
 }
 
 .container-header {
-  position: relative;
   height: 25%;
   width: 100%;
 }
@@ -14,6 +13,9 @@ html, body {
   background-color: green;
   height: 25%;
   width: 100%;
+  overflow: hidden;
+  line-height: normal;
+  font-weight: bold;
 }
 
 .header-picture {

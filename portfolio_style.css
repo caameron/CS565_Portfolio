@@ -1,16 +1,21 @@
-html, body {
+html body {
+  background-color: #DDDDDD;
   height: 100%;
   width: 100%;
 }
 
+.break {
+  background-color: #FFFFFF;
+  height: 10px;
+}
+
 .container-header {
-  height: 25%;
+  max-height: 25%;
   width: 100%;
 }
 
 .header-text {
   text-align: center;
-  background-color: green;
   height: 25%;
   width: 100%;
   overflow: hidden;
@@ -28,13 +33,12 @@ html, body {
 
 .self-pic {
   height: auto;
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 20%;
+  max-height: 20%;
   border-radius: 50px;
 }
 
 .about-container {
-  background-color: #eaede8;
   text-align: center;
   padding: 1%;
 }
@@ -46,22 +50,23 @@ html, body {
 
 .projects-container {
   text-align: center;
-  background-color: #aafde2;
+  background-color: #FFFFFF;
   display: grid;
   align-content: space-around;
   grid-template-columns:50% 50%;
 }
 
 .project-name {
-  background-color: red;
+  background-color: #6AA0AA;
   font-weight: bold;
   font-size: 1.5rem;
 }
 
 .project-content {
   position: relative;
+  background-color: #49B790;
   height: 250px;
-  margin: 5% 2% 2% 2%;
+  padding: 5% 2% 2% 2%;
 }
 
 .project-pic {
@@ -71,7 +76,12 @@ html, body {
 }
 
 .project-description {
-  margin: 1% 2%;
+  background-color: #FFFFFF;
+  padding: 1% 2%;
+}
+
+.project-description p {
+  background-color: #FFFFFF;
 }
 
 .project .overlay {
